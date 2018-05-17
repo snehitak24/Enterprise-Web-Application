@@ -1,0 +1,10 @@
+dfdfsdf,asdasd,fsdfsdfsdrssf,sfsdfsdf,sfsdfsdt
+cxzzfdzfsfds,asdsdsad,nishug01@gmail.com,asdasdasd,9923244275
+sdadasd,asdasd,asdasd,asdad,adsasd
+Storemanager,manager,Storemanager,Storemanager,3124562335
+Salesman,salesman,Salesman,Salesman,3456542345
+a,a,a,a,1,Customer
+as,as,as,as,as,Customer
+fname,lname,email,password,pnumber,Customer
+Store,Manager,storemanager,store,123,Customer
+1,2,3,4,5,Customer

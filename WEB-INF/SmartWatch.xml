@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <smartwatch>
+		<id>SM1</id>
+		<name>IWatch2</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/smartwatch/smartwatch1.jpg</image>        
+        <condition>New</condition>
+        <price>250</price>
+		<manufacturer>Apple</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>80</quantity>
+    </smartwatch>
+	<smartwatch>
+		<id>SM2</id>
+		<name>SmartWatch Black</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/smartwatch/smartwatch4.jpeg</image>        
+        <condition>New</condition>
+        <price>600</price>
+		<manufacturer>Samsung</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>80</quantity>
+    </smartwatch>
+	<smartwatch>
+		<id>SM3</id>
+		<name>IWatch</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/smartwatch/smartwatch3.jpg</image>        
+        <condition>New</condition>
+        <price>200</price>
+		<manufacturer>Google</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>80</quantity>
+    </smartwatch>
+	<smartwatch>
+		<id>SM4</id>
+		<name>Samsung Gear Metal</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/smartwatch/smartwatch5.jpg</image>        
+        <condition>Old</condition>
+        <price>300</price>
+		<manufacturer>Xiaomi</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>80</quantity>
+    </smartwatch>
+	<smartwatch>
+		<id>SM5</id>
+		<name>Neo Smartwatch</name>
+		<retailer>Neo smartwatch</retailer>
+        <image>images/smartwatch/smartwatch6.jpg</image>        
+        <condition>Old</condition>
+        <price>450</price>
+		<manufacturer>Apple</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>80</quantity>
+    </smartwatch>
+</ProductCatalog>

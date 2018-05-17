@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <laptop>
+		<id>LP1</id>
+		<name>Apple Mac Book Latest</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/laptop/apple.jpg</image>        
+        <condition>New</condition>
+        <price>750</price>
+		<manufacturer>Apple</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>15</quantity>
+    </laptop>
+	<laptop>
+		<id>LP2</id>
+		<name>Dell 250 GB</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/laptop/dell.jpg</image>        
+        <condition>New</condition>
+        <price>600</price> 
+		<manufacturer>Dell</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>15</quantity>
+    </laptop>
+	<laptop>
+		<id>LP3</id>
+		<name>Chrome Book</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/laptop/google.jpg</image>        
+        <condition>New</condition>
+        <price>500</price>
+		<manufacturer>Google</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>15</quantity>		
+    </laptop>
+	<laptop>
+		<id>LP4</id>
+		<name>Lenovo Y series</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/laptop/lenovo.jpg</image>        
+        <condition>Old</condition>
+        <price>300</price>
+		<manufacturer>Lenovo</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>15</quantity>		
+    </laptop>
+	<laptop>
+		<id>LP5</id>
+		<name>Samsung galaxy</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/laptop/samsung.jpg</image>
+        <condition>Old</condition>
+        <price>450</price>
+		<manufacturer>Samsung</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>		
+		<onsale>no</onsale>
+		<quantity>15</quantity>
+	</laptop>
+</ProductCatalog>

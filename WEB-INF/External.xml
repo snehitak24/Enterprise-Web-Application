@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <hdd>
+		<id>HDD1</id>
+		<name>WD External HD</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/hdd/ed1.jpg</image>        
+        <condition>New</condition>
+        <price>750</price>
+		<manufacturer>Apple</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>70</quantity>
+    </hdd>
+	<hdd>
+		<id>HDD2</id>
+		<name>WD Passport 1 TB</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/hdd/ed2.jpeg</image>        
+        <condition>New</condition>
+        <price>600</price>
+		<manufacturer>Samsung</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>70</quantity>		
+    </hdd>
+	<hdd>
+		<id>HDD3</id>
+		<name>Seagate 2TB HDD</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/hdd/ed3.jpg</image>        
+        <condition>New</condition>
+        <price>500</price>
+		<manufacturer>Google</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>70</quantity>
+    </hdd>
+	<hdd>
+		<id>HDD4</id>
+		<name>Seagate 1TB Black</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/hdd/ed4.jpg</image>        
+        <condition>Old</condition>
+        <price>300</price>
+		<manufacturer>Xiaomi</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>70</quantity>
+    </hdd>
+	<hdd>
+		<id>HDD5</id>
+		<name>Lamborgini External HDD</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/hdd/ed5.jpg</image>        
+        <condition>Old</condition>
+        <price>450</price>
+		<manufacturer>Apple</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>70</quantity>		
+    </hdd>
+</ProductCatalog>

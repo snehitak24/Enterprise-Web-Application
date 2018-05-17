@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProductCatalog>
+  <accessory>
+    <id>AC1</id>
+    <image>images/accessory/chargecable.jpg</image>
+    <name>Iphone charging cable</name>
+    <condition>New</condition>
+    <price>75</price>
+    <retailer>SmartPortables</retailer>
+	<manufacturer>Apple</manufacturer>
+	<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+	<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+	<onsale>yes</onsale>
+	<quantity>50</quantity>
+  </accessory>
+  <accessory>
+    <id>AC2</id>
+    <image>images/accessory/headphone1.jpg</image>
+    <name>Beats Headphone</name>
+    <condition>New</condition>
+    <price>600</price>
+    <retailer>SmartPortables</retailer>
+	<manufacturer>Beats</manufacturer>
+	<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+	<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+	<onsale>yes</onsale>
+	<quantity>50</quantity>
+  </accessory>
+  <accessory>
+    <id>AC3</id>
+    <image>images/accessory/headphone2.jpg</image>
+    <name>Headphone V20</name>
+    <condition>New</condition>
+    <price>50</price>
+    <retailer>SmartPortables</retailer>
+	<manufacturer>V20</manufacturer>
+	<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+	<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+	<onsale>no</onsale>
+	<quantity>50</quantity>
+  </accessory>
+  <accessory>
+    <id>AC4</id>
+    <image>images/accessory/honor.jpg</image>
+    <name>Honor Powerbank</name>
+    <condition>Old</condition>
+    <price>30</price>
+    <retailer>SmartPortables</retailer>
+	<manufacturer>Honor</manufacturer>
+	<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+	<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+	<onsale>yes</onsale>
+	<quantity>50</quantity>
+  </accessory>
+  <accessory>
+    <id>AC5</id>
+    <image>images/accessory/mousepad.jpg</image>
+    <name>Mousepad Blue Color</name>
+    <condition>Old</condition>
+    <price>45</price>
+    <retailer>SmartPortables</retailer>
+	<manufacturer>LG</manufacturer>
+	<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+	<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+	<onsale>no</onsale>
+	<quantity>50</quantity>
+  </accessory>
+</ProductCatalog>

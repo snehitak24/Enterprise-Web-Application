@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <speaker>
+		<id>SP1</id>
+		<name>JBL 1</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/speaker/speaker1.jpg</image>        
+        <condition>New</condition>
+        <price>750</price>
+		<manufacturer>Apple</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>30</quantity>
+    </speaker>
+	<speaker>
+		<id>SP2</id>
+		<name>Bose speakers</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/speaker/speaker2.jpg</image>        
+        <condition>New</condition>
+        <price>600</price>
+		<manufacturer>Samsung</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>30</quantity>
+    </speaker>
+	<speaker>
+		<id>SP3</id>
+		<name>JBL 3</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/speaker/speaker3.jpg</image>        
+        <condition>New</condition>
+        <price>500</price>
+		<manufacturer>Google</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>30</quantity>
+    </speaker>
+	<speaker>
+		<id>SP4</id>
+		<name>New Speakers</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/speaker/speaker4.jpg</image>        
+        <condition>Old</condition>
+        <price>300</price>
+		<manufacturer>Xiaomi</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>30</quantity>
+    </speaker>
+	<speaker>
+		<id>SP5</id>
+		<name>Wireless speakers</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/speaker/speaker5.jpg</image>        
+        <condition>Old</condition>
+        <price>450</price>
+		<manufacturer>Apple</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>0</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>30</quantity>
+    </speaker>
+</ProductCatalog>

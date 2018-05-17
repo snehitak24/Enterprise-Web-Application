@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProductCatalog>
+  <phone>
+    <id>PH11</id>
+    <image>none</image>
+    <name>IphoneX</name>
+    <condition>New</condition>
+    <price>1000.0</price>
+    <retailer>SmartPortables</retailer>
+	<onsale>yes</onsale>
+	<quantity>100</quantity>
+  </phone>
+  <phone>
+    <id>PH1</id>
+    <image>images/phone/iphone1.jpg</image>
+    <name>iPhone 7 32GB Model</name>
+    <condition>New</condition>
+    <price>750.0</price>
+    <retailer>SmartPortables</retailer>
+	<onsale>no</onsale>
+	<quantity>100</quantity>
+  </phone>
+  <phone>
+    <id>PH3</id>
+    <image>images/phone/nexus.jpg</image>
+    <name>Nexus 6P 32GB GSM</name>
+    <condition>New</condition>
+    <price>500.0</price>
+    <retailer>SmartPortables</retailer>
+	<onsale>yes</onsale>
+	<quantity>100</quantity>
+  </phone>
+  <phone>
+    <id>PH2</id>
+    <image>images/phone/samsung.jpg</image>
+    <name>Samsung Galaxy S7 edge</name>
+    <condition>New</condition>
+    <price>600.0</price>
+    <retailer>SmartPortables</retailer>
+	<onsale>yes</onsale>
+	<quantity>100</quantity>
+  </phone>
+  <phone>
+    <id>PH5</id>
+    <image>images/phone/iphone2.jpg</image>
+    <name>iPhone 6S with 3D Touch</name>
+    <condition>Old</condition>
+    <price>450.0</price>
+    <retailer>SmartPortables</retailer>
+	<onsale>no</onsale>
+	<quantity>100</quantity>
+  </phone>
+  <phone>
+    <id>PH4</id>
+    <image>images/phone/lumia.jpg</image>
+    <name>Microsoft Lumia 950 XL</name>
+    <condition>Old</condition>
+    <price>300.0</price>
+    <retailer>SmartPortables</retailer>
+	<onsale>yes</onsale>
+	<quantity>100</quantity>
+  </phone>
+  <phone>
+    <id>PH12</id>
+    <image>none</image>
+    <name>Samsung S8</name>
+    <condition>new</condition>
+    <price>1000.0</price>
+    <retailer>Smart Portables</retailer>
+	<onsale>no</onsale>
+	<quantity>100</quantity>
+  </phone>
+</ProductCatalog>

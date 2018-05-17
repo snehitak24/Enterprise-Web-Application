@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <headphone>
+		<id>HE1</id>
+		<name>Bose studio QC35</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/headphone/hp1.jpg</image>        
+        <condition>New</condition>
+        <price>750</price>
+		<manufacturer>LG</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>5</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>20</quantity>
+    </headphone>
+	<headphone>
+		<id>HE2</id>
+		<name>Beats Studio wireless</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/headphone/hp2.png</image>        
+        <condition>New</condition>
+        <price>600</price> 
+		<manufacturer>LG</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>15</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>20</quantity>
+    </headphone>
+	<headphone>
+		<id>HE3</id>
+		<name>Beats Solo3</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/headphone/hp3.jpg</image>        
+        <condition>New</condition>
+        <price>500</price>
+		<manufacturer>Samsung</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>13</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>20</quantity>
+    </headphone>
+	<headphone>
+		<id>HE4</id>
+		<name>Studio headphone 500</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/headphone/hp4.jpg</image>        
+        <condition>Old</condition>
+        <price>300</price>
+		<manufacturer>Samsung</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>12</MANUFACTURER_REBATE>
+		<onsale>yes</onsale>
+		<quantity>20</quantity>
+    </headphone>
+	<headphone>
+		<id>HE5</id>
+		<name>Sony HeadPhones</name>
+		<retailer>SmartPortables</retailer>
+        <image>images/headphone/hp5.jpg</image>        
+        <condition>Old</condition>
+        <price>450</price>
+		<manufacturer>Sony</manufacturer>
+		<RETAILER_DISCOUNT>0</RETAILER_DISCOUNT>
+		<MANUFACTURER_REBATE>19</MANUFACTURER_REBATE>
+		<onsale>no</onsale>
+		<quantity>20</quantity>
+    </headphone>
+</ProductCatalog>
