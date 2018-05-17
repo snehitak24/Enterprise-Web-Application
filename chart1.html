@@ -1,0 +1,146 @@
+<html>
+	<head>
+		<title>Google Chart</title>
+		<h2 align="center">Bar Chart For Products and Available Product Quantity</h2>
+	</head>
+	
+	<body>
+		<div id="container"></div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+         google.charts.load('current', {packages: ['corechart']});     
+		 
+		</script>
+		
+		
+		<script type="text/javascript">
+		
+		var TUTORIAL_SAVVY = {
+	
+/*return google visualization data*/
+	getvisualizationData : function(jsonData){
+	
+	 var   point1, point2, dataArray = [],
+	 
+		   data = new google.visualization.DataTable();
+		   
+	       data.addColumn('string', 'Name');
+	      
+	       data.addColumn('number', '');
+	      
+	       data.addColumn({type: 'string',role: 'tooltip','p': {'html': true}});
+	       
+	       data.addColumn('number', 'Available');
+	       
+	      data.addColumn({type: 'string',role: 'tooltip','p': {'html': true}});
+	      
+	      /* for loop code for changing inputdata to 'data' of type google.visualization.DataTable*/
+	      $.each(jsonData, function(i,obj){
+	    	  
+	    	  point1 ="";
+	    	  
+	    	  point2 ="Available "+obj.name+" Products : "+ obj.orgQuantity +"";
+	    	  
+	    	  dataArray.push([obj.name,obj.quantity,TUTORIAL_SAVVY.returnTooltip(point1,point2),obj.orgQuantity,TUTORIAL_SAVVY.returnTooltip(point1,point2)]);
+	      });
+	      
+	     data.addRows(dataArray);
+	     
+	     return data;
+	},
+	/*return options for bar chart: these options are for various configuration of chart*/
+	getOptionForBarchart : function(){
+		
+		  var options = {
+		  			animation:{
+	       					 duration: 2000,
+	       					 easing: 'out'
+	     			  },
+		  				
+			          hAxis: {
+			              baselineColor: '#ccc'
+			          },
+			          vAxis: {
+			              baselineColor: '#ccc',
+			              gridlineColor: '#fff'
+			          },
+			
+			          isStacked: true,
+			          height: 500,
+					  
+			          backgroundColor: '#fff',
+			          colors: ["#fff", "#c65533"],
+			          fontName: 'roboto',
+			          fontSize: 16,
+			          legend: {
+			              position: 'top',
+			              alignment: 'end',
+			              textStyle: {
+			                  color: '#b3b8bc',
+			                  fontName: 'roboto',
+			                  fontSize: 15
+			              }
+			          },
+			          tooltip: {
+			              isHtml: true,
+			              showColorCode: true,
+			              isStacked: true
+			          }
+	     		 };
+		return   options;		 
+		},
+	/*Draws a Bar chart*/	
+	drawBarChart : function (inputdata) {
+
+		 var  barOptions = TUTORIAL_SAVVY.getOptionForBarchart(),
+		
+			  data = TUTORIAL_SAVVY.getvisualizationData(inputdata),
+			  
+			  chart = new google.visualization.ColumnChart(document.getElementById('container'));
+			  
+			  chart.draw(data, barOptions);
+			  /*for redrawing the bar chart on window resize*/
+		    $(window).resize(function () {
+		    	
+		        chart.draw(data, barOptions);
+		    });
+	 },
+	/* Returns a custom HTML tooltip for Visualization chart*/
+	 returnTooltip : function(dataPoint1,dataPoint2){
+	   
+		 return "<div style='height:30px;width:180px;font:12px,roboto;padding:15px 5px 5px 5px;border-radius:3px;'>"+
+			
+				 "<span style='color:#c65533;font:12px,roboto;'>"+dataPoint2+"</span></div>";
+	 },
+	/*Makes ajax call to servlet and download data */
+	getProductData : function(){
+		
+			$.ajax({
+			
+				url: "barchart",
+				
+				dataType: "JSON",
+				
+				success: function(data){
+					
+					TUTORIAL_SAVVY.drawBarChart(data);
+				}
+			});
+	}
+};	
+
+google.load("visualization", "1", {packages:["corechart"]});
+	
+$(document).ready(function(){
+	
+	TUTORIAL_SAVVY.getProductData();
+});
+
+		</script>
+ 
+		
+	</body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Portables</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+	<div id="container">
+		<header>
+		
+		<h1 style='font-family: blaze'><a href='/'>Smart<span> Portables  </span></a></h1>
+		<h2 class='caption'>The best place for electronics</h2>
+		
+		</header>
+		<nav>
+			<ul>
+				<li class="start selected"><a href="index.html">Home</a></li>				
+				<li style="float: right;"><a href="/csj/logout">Logout</a></li>
+			</ul>
+		</nav>
+
+		<div id="body">
+
+			<section id="content">
+			
+			<form action="/csj/addproduct" method="post"  autofocus>
+				<header>Create new customer account</header>
+				
+				<label>Product Type </label>
+				<select name="product_type">
+				<option value = "phone">Smartphone</option>
+				<option value = "accessory">Accessory</option>
+				<option value = "speaker">Speaker</option>
+				<option value = "headphone">HeadPhone</option>
+				<option value = "laptop">Laptop</option>
+				<option value = "hdd">External Hard Disk</option>
+				<option value = "smartwatch">Smartwatch</option>
+				</select>
+				
+				<label>Retailer </label>
+				<input type="text" name="Retailer"required />
+				
+				<label>ImagePath</label>
+				<input type = "text" name="Image" required />
+				
+				<label>Name </label>
+				<input type="text" name="name" required  />
+				
+				<label>Condition </label>
+				<input type="text" name="condition" required />
+				
+				<label>Price </label>
+				<input type="text" name="price" required />
+				
+				<input type = "submit" value="Add Product" class="center" />				
+			</form>
+			
+			</section>
+
+			<aside class="sidebar">
+				<ul>
+					<li>
+						<h4>Products</h4>
+						<ul>
+							<li><a href="/csj/store">Home Page</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<h4>About us</h4>
+						<ul>
+							<li class="text">
+								<p style="margin: 0;">
+									Best Deal is an ecommerce company which sells different types of electronics products such as Smartphones, Laptops, Speakers and Televisions. Enjoy your shopping.</p>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+			</aside>
+			<div class="clear"></div>
+		</div>
+		<footer>
+			<div class="footer-content">				
+				<ul class="endfooter">
+					<li><h4>Contact us</h4></li>
+					<li>Smart Portables</li>
+					<li>Chicago, IL, US</li>
+					<
+					<li>+1(312)753-8501</li>
+				</ul>
+
+				<div class="clear"></div>
+			</div>			
+		</footer>
+	</div>
+</body>
+</html>
