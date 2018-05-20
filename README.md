@@ -9,3 +9,8 @@ This web app is developed using Servlets, HTML, CSS, AJAX, Python and also uses 
 A few screenshots of the apps are shown below:
 
 ![](images/ss1.PNG)
+![](images/ss2.PNG)
+![](images/ss6.PNG)
+![](images/ss3.PNG)
+![](images/ss4.PNG)
+![](images/ss5.PNG)
